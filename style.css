@@ -1,0 +1,42 @@
+#chart-list-section {
+    display: flex;
+    min-height: 75vh;
+}
+
+#chart-section{
+    flex: 3;
+    background-color: black;
+}
+
+#list-section{
+    flex: 1;
+    background-color: rgb(0, 0, 0);
+}
+
+#detail-section{
+    background-color: black;
+    color: white;
+}
+
+.shift-right{
+    margin-left: 4vw;
+}
+
+.stock-summary{
+    max-width: 80vw;
+    padding-left: 1.5vw;
+    padding-top: 1vh;
+}
+
+#stock-chart{
+    max-width: 60vw;
+    max-height: 60vh;
+    background-color: rgb(30, 30, 58);
+    margin-left: 2vw;
+    margin-top: 2vh;
+}
+
+.chart-controls{
+    margin-top: 1vh;
+    margin-left: 2vw;
+}
